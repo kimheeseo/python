@@ -1,5 +1,6 @@
 출처: https://blog.naver.com/PostView.nhn?blogId=youndok&logNo=222304479682
-변수(variable), 상수(constant), 리터럴(literal) 의미 및 파이썬 리터럴의 다양한 표현
+
+# 변수(variable), 상수(constant), 리터럴(literal) 의미 및 파이썬 리터럴의 다양한 표현
 
 # 변수
 변수(variable)란 객체를 가리키는 것.

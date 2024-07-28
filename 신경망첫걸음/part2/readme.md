@@ -1,1 +1,2 @@
-
+- 학습 데이터: http://www.pjreddie.com/media/files/mnist_train.csv
+- 테스트 데이터: http://www.pjreddie.com/media/files/mnist_test.csv

@@ -30,5 +30,6 @@ https://angeloyeo.github.io/2019/07/11/Shannon_sampling_theorem.html
 10) 주파수 샘필링과 DFT
 
 11) 주파수 해상
+- 
 
 +) Youtube: https://www.youtube.com/watch?v=GN4xIGAwnI0

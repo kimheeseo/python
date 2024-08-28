@@ -1,3 +1,4 @@
+# 공돌이의 수학정리노트
 - 연속 신호의 샘플
 https://angeloyeo.github.io/2022/01/14/sampling_CT_to_DT.html
 

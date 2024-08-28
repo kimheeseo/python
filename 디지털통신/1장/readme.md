@@ -1,5 +1,5 @@
 # 공돌이의 수학정리노트
-- 연속 신호의 샘플
+1) 연속 신호의 샘플
 https://angeloyeo.github.io/2022/01/14/sampling_CT_to_DT.html
 
 - 연속 신호의 샘플링
@@ -24,6 +24,7 @@ https://angeloyeo.github.io/2019/07/09/DTFT.html
 
 - 섀넌의 샘플링 정리
 https://angeloyeo.github.io/2019/07/11/Shannon_sampling_theorem.html
+
 물리적인(아날로그) 신호를 디지털 화면 상에 표시해주기 위해선 샘플링이 필요하다.
 시간 샘플링: 원래의 아날로그 신호를 디지털 신호로 바꿔주는 과정.
 

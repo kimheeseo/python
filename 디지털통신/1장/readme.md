@@ -29,8 +29,9 @@ https://angeloyeo.github.io/2019/07/11/Shannon_sampling_theorem.html
 - 시간 샘플링: 원래의 아날로그 신호를 디지털 신호로 바꿔주는 과정.
 
 10) 주파수 샘필링과 DFT
+https://angeloyeo.github.io/2019/07/14/Freq_Sampling.html
 
 11) 주파수 해상
-- 
+https://angeloyeo.github.io/2019/10/12/Frequency_Resolution.html
 
 +) Youtube: https://www.youtube.com/watch?v=GN4xIGAwnI0

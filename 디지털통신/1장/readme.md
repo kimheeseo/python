@@ -24,7 +24,7 @@ https://angeloyeo.github.io/2019/07/09/DTFT.html
 
 9) 섀넌의 샘플링 정리
 https://angeloyeo.github.io/2019/07/11/Shannon_sampling_theorem.html
-- 물리적인(아날로그) 신호를 디지털 화면 상에 표시해주기 위해선 샘플링이 필요하다.
+- 물리적인(아날로그) 신호를 디지털 화면 상에 표시해주기 위해선 샘플링이 필요.
 - 시간 샘플링: 원래의 아날로그 신호를 디지털 신호로 바꿔주는 과정.
 
 10) 주파수 샘필링과 DFT

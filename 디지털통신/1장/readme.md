@@ -21,6 +21,7 @@ https://angeloyeo.github.io/2019/07/08/DTFS.html
 https://angeloyeo.github.io/2019/07/09/DTFT.html
 
 8) 푸리에 변환과 위상
+https://angeloyeo.github.io/2019/10/11/Fourier_Phase.html
 
 9) 섀넌의 샘플링 정리
 https://angeloyeo.github.io/2019/07/11/Shannon_sampling_theorem.html

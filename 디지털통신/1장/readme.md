@@ -27,3 +27,5 @@ https://angeloyeo.github.io/2019/07/09/DTFT.html
 - 주파수 샘필링과 DFT
 
 - 주파수 해상
+
++) Youtube: https://www.youtube.com/watch?v=GN4xIGAwnI0

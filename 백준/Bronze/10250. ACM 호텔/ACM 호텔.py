@@ -1,12 +1,14 @@
-T = int(input())
+import sys
+input=sys.stdin.readline
 
-for i in range(T):
-    h, w, n = map(int, input().split( )) # h=각 호텔의 층 수, w=각 층의 방 수, n=몇 
+i=int(input())
 
-    floor = n % h 
-    room_line = (n // h) + 1
-    if floor == 0:
-        floor = h
-        room_line -= 1
-    
-    print(floor * 100 + room_line)
+for jj in range(i):
+  a,b,c=map(int, input().split())
+  qq=c//a
+  ww=c%a
+  if ww != 0:
+    qq=qq+1
+  else:
+    ww=a
+  print(ww*100+qq) 

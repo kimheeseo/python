@@ -1,3 +1,6 @@
+import sys
+input=sys.stdin.readline
+
 N, M = map(int, input().split())
 nums = list(map(int, input().split()))
 
@@ -20,5 +23,3 @@ while right<=N and left<=right:
         left += 1
 
 print(cnt)
-
-#출처:https://salon.tistory.com/11

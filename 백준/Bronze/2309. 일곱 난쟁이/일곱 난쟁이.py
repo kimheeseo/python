@@ -1,3 +1,6 @@
+import sys
+input=sys.stdin.readline
+
 arr = []
 for _ in range(9):
     f=int(input())
@@ -21,4 +24,3 @@ for i in arr:
     if i in fake:
         continue
     print(i)
- #출처: https://velog.io/@rhdmstj17/%EB%B0%B1%EC%A4%80-2309%EB%B2%88-%EC%9D%BC%EA%B3%B1-%EB%82%9C%EC%9F%81%EC%9D%B4-python-%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4%EB%B2%95-3%EA%B0%80%EC%A7%80

@@ -22,4 +22,3 @@ for i in range(R):
             bfs(i, j)
             cnt += 1
 print(cnt)
-#출처: https://jinho-study.tistory.com/909

@@ -1,18 +1,11 @@
-a,b,c,N=map(int,input().split())
-while 1:
-  N=N-(N//c)*c
-
-  if b<=N<c:
-    N=N-(N//b)*b
-
-
-  if a<=N<b:
-    N=N-(N//a)*a
-
-    if N==0:
-      print(1)
-      break
-    elif N<a:
-      print(0) 
-      break
-    
+a,b,c,n = map(int, input().split())
+count = 0
+for i in range(n//a+1):
+    for j in range(n//b+1):
+        for k in range(n//c+1):
+            if a * i + b * j + c * k == n:
+                count = 1
+if count == 1:
+    print(1)
+else:
+    print(0)

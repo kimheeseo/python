@@ -1,24 +1,18 @@
-import sys
-from collections import deque
-
-T = int(sys.stdin.readline())
-for _ in range(T):
-    N, M = map(int, sys.stdin.readline().split())
-    queue = deque(list(map(int, sys.stdin.readline().split())))
-
-    count = 1
-    while (True):
-        if (queue[0] == max(queue)):
-            if (M == 0):
-                print(count)
-                break
-            else:
-                queue.popleft()
-                
-            count += 1
-        else:
-            queue.append(queue.popleft())
-        
-        M -= 1
-        if (M < 0):
-            M = len(queue) - 1
+t = int(input()) #테스트 케이스 개수
+arr = []
+for _ in range(t):
+  n, m = map(int, input().split())
+  arr = list(enumerate(list(map(int, input().split()))))
+  v = arr[m]
+  idx = 0
+  while len(arr):
+    max_v = max([i[1] for i in arr])
+    if arr[0][1] == max_v:
+      now = arr.pop(0)
+      idx += 1
+      if now == v:
+        print(idx)
+        break
+    else:
+      now = arr.pop(0)
+      arr.append(now)

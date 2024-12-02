@@ -18,3 +18,9 @@ if __name__ == '__main__':
                     total += (1+k) * p
                     past_j = j
     print(total)
+#ABCDE라면
+#A:2
+#B:10+2*2(A->B)
+#C:10+2*3(A->B->C)
+#D:2
+#E:10+2*2(D->E) : 2+14+16+2+14=48

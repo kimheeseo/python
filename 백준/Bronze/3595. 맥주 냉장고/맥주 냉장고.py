@@ -3,7 +3,7 @@ min_surface_area = float('inf')  # 최소 표면적
 best_dimensions = (0, 0, 0)
 
 # 모든 약수 i에 대해
-for i in range(1, int(a ** (1/3)) + 2):  # +2로 범위를 안전하게 설정
+for i in range(1, int(a ** (1/2)) + 2):  # +2로 범위를 안전하게 설정
     if a % i == 0:
         for j in range(i, int((a // i) ** 0.5) + 1):  # +2로 범위 조정
             if (a // i) % j == 0:

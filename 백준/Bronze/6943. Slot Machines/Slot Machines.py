@@ -1,3 +1,6 @@
+import sys
+input=sys.stdin.readline
+
 def martha_plays(quarters, machine1, machine2, machine3):
     machines = [(35, 30, machine1),  # (주기, 보상, 현재 상태)
                 (100, 60, machine2),

@@ -1,6 +1,3 @@
- ![Uploading {coding_level.png}]()
-
-
 LIG 넥스원: ~2024.09.15
 코딩테스트 난이도: 실버 ~ 골5
 

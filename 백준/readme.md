@@ -1,3 +1,5 @@
+![coding_level](https://github.com/user-attachments/assets/f7ffc91e-a199-47cf-a080-ff1ecbe6a75d)
+
 LIG 넥스원: ~2024.09.15
 코딩테스트 난이도: 실버 ~ 골5
 

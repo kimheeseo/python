@@ -26,11 +26,14 @@ ex) 숫자 5: 정수 리터럴, 문자열 "hello": 문자열 리터럴
 - 가장 일반적인 이스케이프 시퀀스는 줄바꿈을 의미하는 \n이다.
 - 이것으로 한 줄의 문자열을 여러 줄의 문자열로 만들 수 있다.
 
-palindrome='A man,\n A plan,\n A cancal:\n panama.'
-print(palindrome)
-A man
-A plan
-A ancal
+input
+- palindrome='A man,\n A plan,\n A cancal:\n panama.'
+- print(palindrome)
+
+  output
+- A man
+- A plan
+- A ancal
 panama.
 
 # \t: 텍스트의 공백에 사용되는 이스케이프 시퀀스(tab)

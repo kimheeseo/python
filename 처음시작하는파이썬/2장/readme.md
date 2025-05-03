@@ -30,7 +30,7 @@ input
 - palindrome='A man,\n A plan,\n A cancal:\n panama.'
 - print(palindrome)
 
-  output
+output
 - A man
 - A plan
 - A ancal

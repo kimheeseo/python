@@ -7,5 +7,6 @@ Ver. 2025.05.03
 # 값으로 항목 삭제하기: remove()
 - marxes=['Groucho', 'Chico', 'Harpo', 'Gummo', 'Zeppo']
 - marxes.remove('Gummo')
-- marxes
-['Groucho','Chico','Harpo','Zeppo']
+- marxes:['Groucho','Chico','Harpo','Zeppo']
+
++) 만약 append()로 새로운 항목을 끝에 추가한 뒤, pop()으로 다시 마지막 항목을 제거했다면, 여러분은 LIFO(Last in First out:후입선출) 자료구조인 스택(stack)을 구현한 것이다.

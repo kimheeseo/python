@@ -1,5 +1,5 @@
 Ver. 2025.05.03
-출처: https://blog.naver.com/PostView.nhn?blogId=youndok&logNo=222304479682
+- 출처: https://blog.naver.com/PostView.nhn?blogId=youndok&logNo=222304479682
 
 # 변수(variable), 상수(constant), 리터럴(literal) 의미 및 파이썬 리터럴의 다양한 표현
 
@@ -42,4 +42,7 @@ panama.
   
 # 부동소수점수
 - 정수는 숫자만으로 구성되어 있지만, 부동소수점수(파이썬에서 float이라고 한다)는 소수점이 있다.
+
+#  유니코드
+- 전세계의 모든 문자를 컴퓨터에서 일관되게 표현하고 처리할 수 있도록 설계된 문자 인코딩 표준.
 - 부동소수점수로 형변환하기 위해서는 float()함수를 사용한다.

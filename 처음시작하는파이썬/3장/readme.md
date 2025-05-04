@@ -10,3 +10,7 @@ Ver. 2025.05.03
 - marxes:['Groucho','Chico','Harpo','Zeppo']
 
 +) 만약 append()로 새로운 항목을 끝에 추가한 뒤, pop()으로 다시 마지막 항목을 제거했다면, 여러분은 LIFO(Last in First out:후입선출) 자료구조인 스택(stack)을 구현한 것이다.
+
+# 값으로 항목 오프셋 찾기: index()
+- 항목 값의 리스트 오프셋을 알고 싶다면 index()를 사용하면된다.
+- marxes.index('Chico') -> output: 1

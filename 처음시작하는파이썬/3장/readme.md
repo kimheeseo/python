@@ -18,7 +18,7 @@ Ver. 2025.05.03
 # 튜플
 - 튜플은 불변하다.: 튜플을 정의한 후에는 추가, 삭제, 수정을 할 수 없다.
 
-- ex)
+ex)
 - marx_tuple=('Groucho','Chico','Harpo')
 - a,b,c=marx_tuple
 - a: 'Groucho'

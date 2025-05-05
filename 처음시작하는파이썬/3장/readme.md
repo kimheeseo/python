@@ -46,3 +46,5 @@ ex)
 # Proper Subset
 - 'A' is a proper subset of 'B' if and only if every element in 'A' is also in 'B', and there exist at least one element in 'B' that is not in 'A'.
 - A]={1,2,3}, B={1,2,3,4}: 'A' is a proper subset of 'B'.
+
++) 대괄호를 사용해서 리스트를, 콤마를 사용해서 튜플을, 중괄호({})를 사용해서 딕셔너리를 만들 수 있다.

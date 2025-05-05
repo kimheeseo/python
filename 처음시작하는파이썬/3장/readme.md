@@ -36,5 +36,13 @@ ex)
 - 딕셔너리 생성하기: {}
 - 딕셔너리를 생성하기 위해서는 중괄호 안에 콤마로 구분된 키:값 쌍을 지정한다.
 
-- ex)
+ex)
 - bierce={'m':'a', 'n':'b'}
+- dict()함수를 사용해서 두 값으로 이루어진 시퀀스를 딕셔너리로 변환할 수 있다.
+
+- 모든 항목 삭제하기: clear()
+- 딕셔너리에 있는 키와 값을 모두 삭제하기 위해서는 clear()를 사용하거나, 빈 딕셔너리를 이름에 할당한다.
+
+# Proper Subset
+- 'A' is a proper subset of 'B' if and only if every element in 'A' is also in 'B', and there exist at least one element in 'B' that is not in 'A'.
+- A]={1,2,3}, B={1,2,3,4}: 'A' is a proper subset of 'B'.

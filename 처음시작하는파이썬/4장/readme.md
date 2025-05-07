@@ -17,7 +17,7 @@ Ver. 2025.05.05
 # 이터레이터
 - number_list=[]
 - for number in range(1,6):
--     number_list.append(number)
+-   number_list.append(number)
 
   
 - range(1,6): 이터러블(iterable) 객체.

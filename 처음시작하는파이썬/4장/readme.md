@@ -18,6 +18,8 @@ Ver. 2025.05.05
 - number_list=[]
 - for number in range(1,6):
 -     number_list.append(number)
+
+  
 - range(1,6): 이터러블(iterable) 객체.
 - 이터러블: _iter_() 메서드를 가지고 있는 객체이며, 이터레이터를 생성할 수 있습니다.
 - for문은 내부적으로 다음 과정을 자동으로 수행합니다.

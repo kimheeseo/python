@@ -13,6 +13,7 @@ Ver. 2025.05.05
 - 리스트 컴프리헨션
 - [표현식 for 항목 in 순회 가능한 객체]
 - 리스트 컴프리헨션은 대괄호 안에 루프가 있다.
+ex) number for number in range(1,6)
 
 # 이터레이터
 - number_list=[]

@@ -44,5 +44,4 @@ ex) number for number in range(1,6)
 ex)
 - try:
 - except IndexError as err:
-- except Exception as other:
-- other 변수에 다른 기타 예외를 저장.
+- except Exception as other: #other 변수에 다른 기타 예외를 저장.

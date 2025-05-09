@@ -35,3 +35,13 @@ ex) number for number in range(1,6)
 
 ex) echo('Rumplestiltskin')
 - echo: 함수, 'Rumplestiltskin': 인자
+
+# 에러 처리하기: try, except
+- try 블록 안의 코드를 실행할 때 에러가 있다면 예외가 발생하고 except 블록 내의 코드가 실행된다.
+- 만약 try 블록 안에 에러가 없다면 except 블록을 건너뛴다.
+- except 예외 타입 as 이름: IndexError = 시퀀스에서 잘못된 위치를 입력할 때 발생하는 예외타입이다.
+ex)
+try:
+except IndexError as err:
+except Exception as other:
+- other 변수에 다른 기타 예외를 저장.

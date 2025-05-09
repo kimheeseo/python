@@ -33,7 +33,7 @@ ex) number for number in range(1,6)
 - 괄호 안에는 옵션으로 매개변수를 입력할 수 있다. 그리고 마지막으로 콜론(:)을 붙인다.
 - 함수로 전달한 값을 인자(argument)라고 부른다. 인자와 함수를 호출하면 인자의 값은 함수내에서 해당하는 매개변수에 복사된다.
 
-ex) echo('Rumplestiltskin')
+- ex) echo('Rumplestiltskin')
 - echo: 함수, 'Rumplestiltskin': 인자
 
 # 에러 처리하기: try, except

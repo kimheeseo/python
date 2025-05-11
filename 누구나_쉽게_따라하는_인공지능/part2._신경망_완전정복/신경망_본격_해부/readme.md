@@ -7,6 +7,6 @@
 
 # 활성화 함수
 1) softmax
-
+![Image](https://github.com/user-attachments/assets/ade7fe5e-408e-4706-9bed-68dc07ad6b6c)
 2)
 3)

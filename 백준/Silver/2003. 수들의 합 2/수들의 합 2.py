@@ -1,25 +1,24 @@
 import sys
-input=sys.stdin.readline
+input = sys.stdin.readline
 
 N, M = map(int, input().split())
 nums = list(map(int, input().split()))
 
-left, right = 0, 1
+left = right = 0
+cur = 0
 cnt = 0
-while right<=N and left<=right:
 
-    sum_nums = nums[left:right]
-    total = sum(sum_nums)
-
-    if total == M:
-        cnt += 1
-
-        right += 1
-
-    elif total < M:
-        right += 1
-
-    else:
+# 모든 원소가 양수일 때: 투 포인터 O(N)
+while True:
+    if cur >= M:
+        if cur == M:
+            cnt += 1
+        cur -= nums[left]
         left += 1
+    elif right == N:
+        break
+    else:
+        cur += nums[right]
+        right += 1
 
 print(cnt)
